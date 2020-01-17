@@ -1,0 +1,8 @@
+#Menentukan Bilangan Ganjil dan Genap
+N=int(input("Masukan jumlah data = "))
+for i in range(1,N,2):
+    print(i,"Adalah bilangan ganjil")
+    print(i+1,"Adalah bilangan genap")
+    
+if N%2 !=0:
+        print(N,"Adalah bilangan ganjil")
